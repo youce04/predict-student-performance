@@ -1,7 +1,8 @@
 # predict-student-performance
 
 #Columns
-|カラム|説明|説明2|
+|カラム|説明|
+|---|-------|
 |session_id| the ID of the session the event took place in|
 |index| the index of the event for the session|
 |elapsed_time| - how much time has passed (in milliseconds) between the start of the session and when the event was recorded
