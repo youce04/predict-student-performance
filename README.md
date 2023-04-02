@@ -8,7 +8,7 @@
 |elapsed_time| - how much time has passed (in milliseconds) between the start of the session and when the event was recorded|
 |event_name| - the name of the event type|要ワンホット|
 |name| - the event name (e.g. identifies whether a notebook_click is is opening or closing the notebook)|要ワンホット|
-|level| - what level of the game the event occurred in (0 to 22)|
+|level| - what level of the game the event occurred in (0 to 22)|これとセッションを組み合わせたのが予測値|
 |page| - the page number of the event (only for notebook-related events)|ほぼNaN。何に使うか|
 |room_coor_x| - the coordinates of the click in reference to the in-game room (only for click events)|
 |room_coor_y|- the coordinates of the click in reference to the in-game room (only for click events)|
