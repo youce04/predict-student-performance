@@ -32,5 +32,19 @@
 特定の行動（画面のクリック回数とかクリック場所とか）と全体の正答率　および　各問題の正答率の関係  
 問題が出てきたときに出てくる特定の文章　全体の正答率との関係はわかる　どうやって各問題の正誤と結びつけるか？
 
+
+# 証明パートの誤答
+Chapter2  
+that is definitely no slip  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+that doesn't prove your case.  
+
 # Markdownの書き方
 https://un4navi.com/prologue/20079/
