@@ -3,8 +3,8 @@
 |カラム|説明|処理方法|
 |---|-------|------|
 |session_id| イベントが行われたセッションのID||
-|index| そのセッションのイベントのインデックス|早くクリックされたとき、順番が正しくないというエラー  https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/395250|
-|elapsed_time|セッション開始からイベント記録までの経過時間（ミリ秒単位) 積み上げ方式で、最終行がゲームの終了時間|一個前との差分、上と同じエラー|
+|index| そのセッションのイベントのインデックス|早くクリックされたとき、順番が正しくないというエラー *(1)*|
+|elapsed_time|セッション開始からイベント記録までの経過時間（ミリ秒単位) 積み上げ方式で、最終行がゲームの終了時間|一個前との差分、上と同じエラー *(1)*|
 |event_name| イベントタイプの名前|ワンホット|
 |name| イベント名（例えば、notebook_clickがノートブックを開いているのか閉じているのかを識別する）|ワンホット|
 |level| どの階層で起きた出来事か（0〜22）||
@@ -23,6 +23,8 @@
 |music| ゲーム音楽のON/OFF|
 |level_group| この行がどのレベルグループ（および問題グループ）に属するか（0～4、5～12、13～22）|
 
+■参考URL  
+(1) https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/395250
 
 # 考えること
 ゲームの内容は問題の正答率を1対1で結びつけることは不可  
