@@ -26,6 +26,11 @@
 ■参考URL  
 (1) https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/395250
 
+# 評価指標
+sklearn.metrics.f1_score(true, pred, average='macro')  
+We compute the f1_score for class 0 then compute the f1_score for class 1 then average the two equally. Blog explains this here
+
+
 # 考えること
 ゲームの内容は問題の正答率を1対1で結びつけることは不可  
 各生徒の主成分みたいなものの抽出　&　問題の主成分を抽出　→　それぞれをマッチングみたいな考え方？  
