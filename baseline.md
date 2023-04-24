@@ -21,7 +21,7 @@
 |fullscreen| プレーヤーがフルスクリーンモードであるかどうか|そのまま使う||
 |hq| 高画質かどうか|そのまま使う|
 |music| ゲーム音楽のON/OFF|そのまま使う
-|level_group| この行がどのレベルグループ（および問題グループ）に属するか（0～4、5～12、13～22）| |ポイントが2つだったり4個以上だったりする *(1)*|
+|level_group| この行がどのレベルグループ（および問題グループ）に属するか（0～4、5～12、13～22）|groupbyのキー |ポイントが2つだったり4個以上だったりする *(1)*|
 
 ■参考URL  
 (1) https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/395250
