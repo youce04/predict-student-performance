@@ -26,6 +26,10 @@
 ■参考URL  
 (1) https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/395250
 
+■Levelの区分
+sumple submissionから、1~4 / 5~13 / 14~18で区分してみる
+要見直し
+
 # 評価指標
 sklearn.metrics.f1_score(true, pred, average='macro')  
 We compute the f1_score for class 0 then compute the f1_score for class 1 then average the two equally. Blog explains this here
