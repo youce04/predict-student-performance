@@ -26,9 +26,11 @@
 ■参考URL  
 (1) https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/395250
 
-■Levelの区分
-sumple submissionから、1~4 / 5~13 / 14~18で区分してみる
-要見直し
+
+■Levelの区分  
+sumple submissionから、1-4 / 5-13 / 14-18で区分してみる  
+★要見直し
+
 
 # 評価指標
 sklearn.metrics.f1_score(true, pred, average='macro')  
